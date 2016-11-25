@@ -9,9 +9,9 @@
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "build:nodeserver": "ng build && cp node_server\/* dist",
-    "build:nodeserver-prod": "ng build -prod && cp node_server\/* dist",
-    "serve-build" : "npm run build:nodeserver && cd dist && node server.js",
+    "build:nodeserver": "ng build && cp node_server/* dist",
+    "build:nodeserver-prod": "ng build -prod && cp node_server/* dist",
+    "serve-build": "npm run build:nodeserver && cd dist && node server.js",
     "serve-build-prod": "npm run build:nodeserver-prod && cd dist && node server.js"
   },
   "private": true,
@@ -28,6 +28,7 @@
     "express": "^4.14.0",
     "rxjs": "5.0.0-beta.12",
     "ts-helpers": "^1.1.1",
+    "twitter": "^1.4.0",
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
