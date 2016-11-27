@@ -8,8 +8,11 @@ This project (other than the Express server) was generated with [angular-cli](ht
 
 3) Replace the placeholders in `server.js` with your actual keys and secrets. Note: This is not a good long-term solution. You may want to set these as environment variables. Make sure to never commit code containing your actual keys and secrets.
 
+4) Within the Twitter stream code, track by any hashtag or term you like (default is '#javascript').
+
 ## Development server
 Run `npm run serve-build` for a dev server. Navigate to `http://localhost:3000/`.
+Use [Postman](https://www.getpostman.com/) or similar tool to send a GET request to `http://localhost:3000/stream`.
 
 ## Code scaffolding
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
