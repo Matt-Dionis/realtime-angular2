@@ -14,6 +14,14 @@ This project (other than the Express server) was generated with [angular-cli](ht
 Run `npm run serve-build` for a dev server. Navigate to `http://localhost:3000/`.
 Use [Postman](https://www.getpostman.com/) or similar tool to send a GET request to `http://localhost:3000/stream`.
 
+Note: This project was recently updated to Angular v2.3.1, Angular-CLI v1.0.0, and TypeScript v2.0.10. For a clean build run:
+```
+npm uninstall -g angular-cli
+npm uninstall --save-dev angular-cli
+npm install -g @angular/cli@latest
+rm -rf node_modules dist
+npm install
+```
 ## Code scaffolding
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
