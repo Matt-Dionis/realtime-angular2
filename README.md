@@ -1,4 +1,4 @@
-# TweetDashboard
+# realtime-angular2
 This project (other than the Express server) was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Installation
